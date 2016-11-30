@@ -1,0 +1,21 @@
+{
+	"browser": false,
+	"debug": true,
+	"devel": true,
+	"eqnull": true,
+	"evil": true,
+	"forin": true,
+	"funcscope": false,
+	"jquery": true,
+	"latedef": true,
+	"loopfunc": true,
+	"noarg": true,
+	"nonew": true,
+	"proto": true,
+	"notypeof": true,
+	"xpredef": [ "require", "define", "window", "document", "console", "module" ],
+	"shadow": "inner",
+	"undef": true,
+	"unused": true,
+	"bitwise": true
+}

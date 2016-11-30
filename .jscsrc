@@ -1,0 +1,26 @@
+{
+	"preset": "google",
+	"fileExtensions": [
+		".js",
+		"jscs"
+	],
+	"validateIndentation": 4,
+	"validateQuoteMarks": "\"",
+	"disallowKeywords": [
+		"with"
+	],
+	"safeContextKeyword": "self",
+	"disallowMixedSpacesAndTabs": true,
+	"maximumLineLength": 120,
+	"requireCamelCaseOrUpperCaseIdentifiers": "ignoreProperties",
+	"excludeFiles": [],
+	"jsDoc": {
+		"checkAnnotations": {
+			"preset": "jsdoc3",
+			"extra": {
+				"exports": true,
+				"copyright": true
+			}
+		}
+	}
+}
